@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(248, 228, 175);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(59, 71, 150);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    color: aliceblue;
+    background-color: rgb(41, 41, 86);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1000;
+}
+
+/*----------LOGO-----------*/
+
+.logo {
+    height: 80px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 20px;
+    
+}
+
+.logo h1 {
+    width: 100%;
+    font-size: 20px;
+    color: aliceblue;
+  
+
+}
+
+/*-------------MENU------------*/
+.menu {
+    width: 650px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+/*Especividade*/
+.menu ul li a {
+    color: blanchedalmond;
+    padding: 10px 40px;
+    text-decoration: none;
+
+}
+
+.menu ul li a:hover {
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+}
+
+
+
+/*--------------------Seção home--------------------*/
+
+.linha_home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/19523-e1717167051719.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.container {
+    
+    width: 1200px;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.linha{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(233, 232, 255);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*-------------------- Rodapé ----------------*/
+footer{
+    width: 100%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.col_rd{
+    width: 400px;
+    height: 100%;
+    border: 1px solid white;
+}
