@@ -139,6 +139,7 @@ header {
     flex-direction: column;
     background-attachment: fixed;
     border-radius: 50px 50px 50px;
+    box-shadow: #00000080 4px 4px 4px;
 }
 
 
