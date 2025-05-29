@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +14,7 @@
 }
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -18,14 +23,13 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-color: rgb(248, 228, 175);
+    background-color: rgba(41, 41, 86, 0.44);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
     height: 100px;
     width: 100%;
-    background-color: rgb(59, 71, 150);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,43 +37,51 @@ header {
     color: aliceblue;
     background-color: rgb(41, 41, 86);
     position: fixed;
-    top:0;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 1px 3px 3px black;
+    top: 0;
     left: 0;
     z-index: 1000;
+}
+
+main {
+    background-color: rgb(41, 41, 86);
 }
 
 /*----------LOGO-----------*/
 
 .logo {
     height: 80px;
-    width: 280px;
+    width: 450px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
 }
 
 .logo img {
-    height: 100px;
+    height: 120px;
     margin-right: 20px;
-    
+
 }
 
 .logo h1 {
     width: 100%;
-    font-size: 20px;
-    color: aliceblue;
-  
-
+    color: blanchedalmond;
+    padding-top: 10px;
+    font-size: 47px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 /*-------------MENU------------*/
 .menu {
     width: 650px;
-    border: 2px solid white;
     display: flex;
     justify-content: space-around;
-
+    font-size: 17px;
 }
 
 .menu ul {
@@ -86,8 +98,12 @@ header {
 }
 
 .menu ul li a:hover {
-    border: 2px solid aliceblue;
-    border-radius: 5px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    color: rgb(229, 149, 88);
+    transition: 0.3s ease-out;
+    
+    
 }
 
 
@@ -97,45 +113,103 @@ header {
 .linha_home {
     width: 100%;
     height: 100vh;
-    background-image: url(assets/19523-e1717167051719.jpg);
+    background-image: url(assets/com\ sombra.png);
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
 
+}
+
+.linha_home h1 {
+    font-size: 75px;
+    color: blanchedalmond;
+    text-shadow: 5px 5px 5px black;
+    padding-left: 45px;
+}
+
+
+.linha_home h3 {
+    font-size: 25px;
+    text-shadow: 5px 5px 5px rgb(28, 41, 111);
+    padding-left: 45px;
+    color: blanchedalmond;
 }
 
 .container {
-    
     width: 1200px;
-    height: 100%;
-    padding-top: 100px;
+    min-height: 100%;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
 }
 
-.linha{
+.linha {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(233, 232, 255);
     display: flex;
     justify-content: center;
+    background-color: rgba(238, 238, 255, 0.808);
 }
 
 
 
 
 /*-------------------- Rodapé ----------------*/
-footer{
+footer {
     width: 100%;
-    height: 300px;
-    display:flex;
+    height: 100px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkblue;
+    background-color: rgb(41, 41, 86);
     color: aliceblue;
 }
 
-.col_rd{
+.col_rd {
     width: 400px;
     height: 100%;
     border: 1px solid white;
 }
+
+
+.cardapio {
+    padding-top: 10px;
+    display: flex;
+    border-radius: 9px;
+    width: 100%;
+    height: 280px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 4px rgb(41, 41, 86);
+    background-color: rgba(0, 0, 0, 0.781);
+    color: blanchedalmond;
+
+}
+
+
+.cardapio img{
+    width: 40%;
+    height: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.texto{
+    border: 2px solid blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 4px;
+}
+
+
+
+
