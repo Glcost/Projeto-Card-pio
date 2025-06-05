@@ -21,7 +21,7 @@
 
 
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
     color-scheme: dark;
 }
 
@@ -34,7 +34,7 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    background-color: #c5d3ff;
+    background-color: #111f4a9d;
 }
 
 header {
@@ -140,14 +140,14 @@ header {
     flex-direction: column;
     background-attachment: fixed;
     border-radius: 10px 10px 10px;
-    box-shadow: 2#00000080 4px 4px 4px;
+    box-shadow: #F29829 2px 2px 2px;
     transition: 1s ease-in-out;
 }
 
-.linha_home:hover{
+.linha_home:hover {
     transform: scale(1.008);
-    box-shadow: #1a3070 4px 4px 4px ;
-    
+    box-shadow: #1a3070 4px 4px 4px;
+
 }
 
 .linha_home h1 {
@@ -181,12 +181,12 @@ header {
     border: #000000 solid 5px;
     border-radius: 20px 20px 20px 20px;
     transition: 0.8s ease-in-out;
-    
+
 
 }
 
-.container:hover{
-    box-shadow: #F29829 2px 4px 2px ;
+.container:hover {
+    box-shadow: #F29829 2px 4px 2px;
     transform: scale(1.005);
 
 }
@@ -229,7 +229,7 @@ header {
 
 }
 
-.container h1:hover{
+.container h1:hover {
     transform: scale(1.04);
     text-shadow: #c5d3ff29;
     color: #f2f2f2;
@@ -315,7 +315,7 @@ footer h2 {
     display: flex;
     border-radius: 9px;
     width: 95%;
-    height: 240px;
+    height: 250px;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 3px 3px 4px rgb(41, 41, 86);
     background-color: rgba(0, 0, 0, 0.781);
@@ -349,10 +349,10 @@ footer h2 {
 
 }
 
-.cardapio button{
+.cardapio button {
     border: #000000 2px solid;
     border-radius: 10px 10px 10px 10px;
-    background-color:#1a2f7039;
+    background-color: #1a2f7039;
     width: 200px;
     height: 50px;
     color: blanchedalmond;
@@ -369,7 +369,7 @@ footer h2 {
 
 }
 
-.texto h3{
+.texto h3 {
     font-size: 12px;
 }
 
@@ -389,4 +389,23 @@ footer h2 {
     text-align: left;
     padding-left: 20px;
     font-size: 17px;
+}
+
+.texto button {
+    transition: 0.5s ease-in-out;
+    margin-top: 5px;
+}
+
+.texto button h3 {
+    font-size: 18px;
+
+}
+
+
+.texto button:hover {
+    background-color: #213e95;
+    color: #F29829;
+    transform:  scale(1.009);
+    box-shadow: #F29829 2px 2px 2px 2px ;
+
 }
