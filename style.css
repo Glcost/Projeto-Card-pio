@@ -21,7 +21,8 @@
 
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
+    color-scheme: dark;
 }
 
 body {
@@ -355,7 +356,9 @@ footer h2 {
     width: 200px;
     height: 50px;
     color: blanchedalmond;
+    font-size: 15px;
 }
+
 
 .texto {
     display: flex;
@@ -366,7 +369,9 @@ footer h2 {
 
 }
 
-
+.texto h3{
+    font-size: 12px;
+}
 
 
 .texto h2 {
@@ -377,6 +382,7 @@ footer h2 {
     font-size: 40px;
     text-shadow: #fda02e4e 2px 2px 2px;
 }
+
 
 .texto p {
     width: 100%;
