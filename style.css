@@ -145,7 +145,6 @@ header {
 }
 
 .linha_home:hover {
-    transform: scale(1.008);
     box-shadow: #1a3070 4px 4px 4px;
 
 }
@@ -232,7 +231,8 @@ header {
 .container h1:hover {
     transform: scale(1.04);
     text-shadow: #c5d3ff29;
-    color: #f2f2f2;
+    color: var(--cor-texto);
+    text-shadow: #F29829 3px 3px 3px;
 }
 
 
@@ -251,7 +251,7 @@ header {
 .container hr:hover {
     width: 100%;
     height: 3px;
-    background-color: rgb(41, 41, 59);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -392,19 +392,19 @@ footer h2 {
     transition: 1.2s ease-in-out;
 }
 
-.texto p:hover{
+.texto p:hover {
     transform: scale(1.009);
     color: aliceblue;
-} 
+}
 
 
-.texto p strong{
+.texto p strong {
     transition: 1.3s ease-in-out;
     color: #F29829;
 }
 
-.texto p strong:hover{
-    color:#355bcc;
+.texto p strong:hover {
+    color: #355bcc;
 }
 
 
@@ -420,9 +420,8 @@ footer h2 {
 
 
 .texto button:hover {
-    background-color: #213e95;
-    color: #F29829;
-    transform:  scale(1.009);
-    border: #F29829 2px solid;
+    background-color: rgba(3, 10, 47, 0.781);
+    transform: scale(1.009);
+    border: #F29829 3px solid;
 
 }
